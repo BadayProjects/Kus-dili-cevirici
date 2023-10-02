@@ -18,8 +18,8 @@ body{
   
 }
 .container{
-    overflow: auto; /* Enable scrolling for your content */
-    padding-bottom: 100px; /* Add some padding to prevent content from being hidden by the keyboard */
+     overflow: auto; /* Enable scrolling for your content */
+  
     background-color: #00000002;
     backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -72,3 +72,10 @@ h1{
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      padding-bottom: 100px;
+    }
+  }
+  
